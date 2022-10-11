@@ -8,7 +8,7 @@ and offers a *simple* and *intuitive* API.
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe width="560" height="315" src="images/convertion.png" frameborder="0"></iframe>
+        <img width="560" height="315" src="images/convertion.png"></img>
     </div>
 
 Check out the :doc:`usage` section for further information, including
