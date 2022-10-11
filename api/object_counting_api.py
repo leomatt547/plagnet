@@ -13,7 +13,7 @@ total_passed_medium_plastic = 0
 total_passed_large_plastic = 0
 
 
-def cumulative_object_counting_x_axis(input_video, detection_graph, category_index, roi, deviation, h, d, f, save_image=False):
+def cumulative_object_counting_x_axis(input_video, detection_graph, category_index, roi, deviation, h, d, f, save_image=False, small_cond=15, medium_cond=10, large_cond=5):
     total_passed_small_plastic = 0
     total_passed_medium_plastic = 0
     total_passed_large_plastic = 0
@@ -42,10 +42,6 @@ def cumulative_object_counting_x_axis(input_video, detection_graph, category_ind
     set_small_plastic = 0
     set_medium_plastic = 0
     set_large_plastic = 0
-
-    small_cond = 15
-    medium_cond = 10
-    large_cond = 5
 
     reusable_bag = 0
 
@@ -146,17 +142,17 @@ def cumulative_object_counting_x_axis(input_video, detection_graph, category_ind
                 total_passed_medium_plastic = total_passed_medium_plastic + counter_medium
                 total_passed_large_plastic = total_passed_large_plastic + counter_large
 
-                if total_passed_large_plastic % 5 == 0 and total_passed_large_plastic > 0:
+                if total_passed_large_plastic % large_cond == 0 and total_passed_large_plastic > 0:
                     total_passed_large_plastic = 0
                     set_large_plastic += 1
                     reusable_bag += 1
 
-                if (total_passed_medium_plastic % 10 == 0) and total_passed_medium_plastic > 0:
+                if (total_passed_medium_plastic % medium_cond == 0) and total_passed_medium_plastic > 0:
                     total_passed_medium_plastic = 0
                     set_medium_plastic += 1
                     reusable_bag += 1
 
-                if (total_passed_small_plastic % 15 == 0) and total_passed_small_plastic > 0:
+                if (total_passed_small_plastic % small_cond == 0) and total_passed_small_plastic > 0:
                     total_passed_small_plastic = 0
                     set_small_plastic += 1
                     reusable_bag += 1

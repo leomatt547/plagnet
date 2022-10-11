@@ -19,6 +19,11 @@ camera_height = 0.0745  # m
 camera_diameter = 0.25745  # mm
 camera_focus = 0.26  # mm
 
+# Set plastic bag exchange conditions here
+small_cond = 15  # items
+medium_cond = 10  # items
+large_cond = 5  # items
+
 object_counting_api.cumulative_object_counting_x_axis(input_video,
                                                       detection_graph,
                                                       category_index,
@@ -27,4 +32,8 @@ object_counting_api.cumulative_object_counting_x_axis(input_video,
                                                       camera_height,
                                                       camera_diameter,
                                                       camera_focus,
-                                                      save_image=True)  # counting all the objects
+                                                      save_image=True,
+                                                      small_cond=small_cond,
+                                                      medium_cond=medium_cond,
+                                                      large_cond=large_cond
+                                                      )  # counting all the objects
