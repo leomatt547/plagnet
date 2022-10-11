@@ -3,9 +3,10 @@ Examples
 
 .. _examples:
 
-Plastic Bag Detection Output Video:
------------------------------------
-The video below is example of disposable plastic detection:
+Plastic Bag Detection Output Video
+----------------------------------
+The video below is example of disposable plastic detection
+
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
