@@ -197,7 +197,7 @@ def cumulative_object_counting_x_axis(input_video, detection_graph, category_ind
                     font = cv2.FONT_HERSHEY_SIMPLEX
                     cv2.putText(
                         input_frame,
-                        'Reusable Plastic Bag',
+                        'Reusable Bag',
                         (frame.shape[1]-270, 220),
                         font,
                         0.6,

@@ -9,7 +9,7 @@ API
 Plastic Exchange Configuration 
 ------------------------------
 For several objects that have detected as disposable plastic bag, the program will count how many reusable plastic bag that you can get.
-The configuration for exchange condition can be seen in as follow:
+The configuration for exchange condition can be seen as follow:
 
 .. code-block:: console
    

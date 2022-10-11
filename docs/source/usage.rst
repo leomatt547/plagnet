@@ -21,7 +21,7 @@ To run the program, input command as below:
 
 .. code-block:: console
 
-   $ python plastic_detection.py
+   $ python plastic_counting.py
 
 
 To retrieve a list of random ingredients,
