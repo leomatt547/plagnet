@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'PlagNet'
+project = 'PlagNet: Disposable Plastic Bac Detection'
 copyright = '2022, Wastupranata'
 author = 'Wastupranata'
 
