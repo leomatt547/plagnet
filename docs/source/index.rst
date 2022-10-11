@@ -5,11 +5,9 @@ Welcome to PlagNet's documentation!
 It trained from `Tensorlow Model Zoo <https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md/>`_
 and offers a *simple* and *intuitive* API.
 
-.. raw:: html
-
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <img width="560" height="315" src="images/convertion.png"></img>
-    </div>
+.. image:: /images/convertion.png
+          :alt: convertion scheme
+          :class: sphx-glr-multi-img
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
