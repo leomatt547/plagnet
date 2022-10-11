@@ -3,8 +3,8 @@
 # -- Project information
 
 project = 'PlagNet: Disposable Plastic Bag Detection'
-copyright = '2022, Wastupranata'
-author = 'Wastupranata'
+copyright = '2022, Leonard Matheus Wastupranata'
+author = 'Leonard Matheus Wastupranata'
 
 release = '1.0'
 version = '1.0.0'

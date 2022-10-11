@@ -10,7 +10,7 @@ To use PlagNet, first clone or download it as zip:
 
 .. code-block:: console
 
-   (.venv) $ git clone https://github.com/leomatt547/plagnet.git
+   $ git clone https://github.com/leomatt547/plagnet.git
 
 .. _execute:
 
