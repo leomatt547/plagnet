@@ -13,7 +13,7 @@ total_passed_medium_plastic = 0
 total_passed_large_plastic = 0
 
 
-def cumulative_object_counting_x_axis(input_video, detection_graph, category_index, roi, deviation, h, d, f, save_image=False, small_cond=15, medium_cond=10, large_cond=5):
+def cumulative_object_counting_x_axis(input_video, detection_graph, category_index, roi, deviation, h, d, f, save_image=False, small_cond=15, medium_cond=10, large_cond=5, folder="Output"):
     total_passed_small_plastic = 0
     total_passed_medium_plastic = 0
     total_passed_large_plastic = 0
@@ -27,7 +27,7 @@ def cumulative_object_counting_x_axis(input_video, detection_graph, category_ind
 
     fourcc = cv2.VideoWriter_fourcc(*'XVID')
     file_name = time.strftime("%Y%m%d-%H%M%S")
-    folder_name = os.path.join("Output", file_name)
+    folder_name = os.path.join(folder, file_name)
     if not os.path.exists(folder_name):
         os.mkdir(folder_name)
         os.mkdir(str(folder_name)+"/video")

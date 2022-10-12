@@ -24,6 +24,8 @@ small_cond = 15  # items
 medium_cond = 10  # items
 large_cond = 5  # items
 
+# Output
+folder = "Output"
 object_counting_api.cumulative_object_counting_x_axis(input_video,
                                                       detection_graph,
                                                       category_index,
@@ -35,5 +37,6 @@ object_counting_api.cumulative_object_counting_x_axis(input_video,
                                                       save_image=True,
                                                       small_cond=small_cond,
                                                       medium_cond=medium_cond,
-                                                      large_cond=large_cond
+                                                      large_cond=large_cond,
+                                                      folder=folder
                                                       )  # counting all the objects
