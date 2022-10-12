@@ -13,16 +13,10 @@ The functions do not return a value, instead they modify the image itself.
 
 # Imports
 import collections
-import functools
-import matplotlib.pyplot as plt
 import numpy as np
 import PIL.Image as Image
-import PIL.ImageColor as ImageColor
 import PIL.ImageDraw as ImageDraw
 import PIL.ImageFont as ImageFont
-import six
-import tensorflow as tf
-import cv2
 import numpy
 import os
 
